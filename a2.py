@@ -30,6 +30,7 @@ def part1():
 	img_list=im_li
 	jk=li
 	no_images=len(img_list)
+	## class of image is first 3 letters of image name
 	jk_c=[item[:3] for item in jk]
 	def no_matches(img1,img2):
 		# detect features 
